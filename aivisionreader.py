@@ -11,8 +11,8 @@ import pigpio
 import speech_recognition as sr
 
 # ========================== CẤU HÌNH API KEY ==========================
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"  # <== Thay bằng API key Gemini của bạn
-GOOGLE_TTS_API_KEY = "YOUR_TTS_API_KEY"  # hoặc có thể dùng luôn key của Gemini
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"  
+GOOGLE_TTS_API_KEY = "YOUR_TTS_API_KEY"  
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
